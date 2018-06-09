@@ -1,0 +1,14 @@
+table{
+	border:1px solid blue;
+	border-collapse:collapse;
+}
+th,td{
+	border:1px solid blue;
+	color:red;
+}
+.green{
+	background-color:#99ff99;
+}
+.gray{
+	background-color:gray;
+}

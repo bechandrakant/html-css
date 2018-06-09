@@ -1,0 +1,103 @@
+/* Get rid of defaults */
+*{/* selects everything on web page */
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:sans-serif;
+	text-align:center;  
+}
+/* centering the web page */
+#make_center{
+	width:1320px; /* divides into three parts really well 440 each */
+	/* border:2px solid red; */
+	margin:0px auto;/* centers the web page */
+	text-align:left;
+}
+/* styling header */
+#page_header{
+		border:2px solid blue;
+		padding:10px;
+}
+.head_text{
+	display:inline;
+}
+.logo{
+	display:inline;
+	vertical-align:middle;
+}
+
+/* 
+ *end of header styling
+ *start of navigation bar styling
+*/
+
+#top_nav{
+	margin:5px 0px;
+	border:2px solid red;
+	padding:10px;
+}
+#top_nav ul{
+	list-style-type:none;
+}
+#top_nav ul li{
+	display:inline;
+	margin:10px; 
+}
+/* 
+ *end of navigation styling
+ *start of section styling
+*/
+#main_section{ /* total width 880px */
+	float:left;
+	margin:0px 10px 10px 0px; /* top right bottom left * -10px */
+	border:2px solid green; /* -4px */
+	padding:10px; /* -20px */
+	width:846px;
+	height:395px;
+}
+/* 
+ *end of section styling
+ *start trnding news styling
+ */
+#aside_trending{ /* total width 440px */
+	float:left;
+	margin:0px 10px 10px 0px; /* top right bottom left * -10px */
+	border:2px solid gray; /* -4px */
+	padding:10px; /* -20px */
+	width:406px;
+	height:395px;
+}
+/* 
+ *end of trnding news styling
+ *footer styling starts
+*/
+#page_footer{
+	clear:both;
+	margin:0px 10px 10px 0px; 
+	border:2px solid orange;
+	padding:10px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
